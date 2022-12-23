@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int s ,a,b;
+void getdata(){
+    cout << "Hello, enter s:" <<endl;
+    cin>>h;
+    cout<<"a:"<<endl;
+    cin>>a;
+    cout<<"b:";
+    cin>>b;
+}
+int main() {
+    int v,s;
+    getdata();
+    v=a*b*s;
+    s=((a+b)*2) * s ;
+    cout <<"the volume is :" << v <<endl  ;
+    cout << "the surface area is :" <<s <<endl ;
+    return 0;
+}
